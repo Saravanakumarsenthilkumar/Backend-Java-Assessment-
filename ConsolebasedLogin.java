@@ -1,5 +1,5 @@
 import java.util.*;
-class App{
+class ConsolebasedLogin{
     public static void main(String[] args) {
         System.out.println("Enter email id: ");
         Scanner s=new Scanner(System.in);
