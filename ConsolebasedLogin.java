@@ -7,7 +7,8 @@ class ConsolebasedLogin{
         System.out.println("Enter password: ");
         String password =s.nextLine();
 
-        if(! email.endsWith("gmail.com")){
+        if (!email.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$"))
+        {
             System.out.println("Invalid Email format");
         }
         else if(password.length()<6){
